@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Dice Rolling</title>
+</head>
+<body class="bg-gradient-to-r from-[#B3C8E6] to-[#DCEBFF] overflow-hidden my-16">
+  <header>
+    <div>
+      <div>
+        <h1 class="text-[#335577] text-center font-bold text-[3rem]">Click the button to play! Enjoy!</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrapper flex justify-center items-start mt-5">
+
+        <!-- Box for player  -->
+        <div class="box flex justify-around">
+          <div class="player1 text-center font-bold text-3xl p-7 text-[#335577]">
+            <p>Player 1</p>
+            <img class="transition duration-100 ease-out" src="/images/dice1.png" alt="dice-1">
+          </div>
+          <div class="player2 text-center  font-bold text-3xl text-[#335577] p-7">
+            <p>Player 2</p>
+            <img class=" transition duration-100 ease-out" src="/images/dice2.png" alt="dice-2">     
+          </div>  
+      </div>
+    </div>
+    <div class="btn text-center">
+      <button class="bg-blue-400 px-6 py-2 border-2 rounded-full text-white font-medium text-xl mt-5" >Play!</button>
+    </div>
+
+    <!-- Result -->
+    <div>
+      <p class="result text-center text-3xl mt-10 font-extrabold text-[#335577]">Win!</p>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
