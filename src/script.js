@@ -11,8 +11,8 @@ function randomDice(){
   dice1 = randomNumber();
   dice2 = randomNumber();
   
-  dicePlayer1.src = `/images/dice${dice1}.png`;
-  dicePlayer2.src = `/images/dice${dice2}.png`;
+  dicePlayer1.src = `../images/dice${dice1}.png`;
+  dicePlayer2.src = `../images/dice${dice2}.png`;
 
   if (dice1 > dice2) {
     result.innerHTML = 'Player 1 WIN!!!';
