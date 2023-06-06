@@ -13,6 +13,8 @@ Welcome to the Dice Rolling Game! This is a simple web-based game where players 
 ## Introduction
 The Dice Rolling Game is a fun and interactive web game built using HTML, CSS, and JavaScript. It allows two players to roll dice and determine the winner based on the outcome of the dice rolls.
 
+You can check my live demo here: https://andyquoc53.github.io/dice-competition/src/dicee.html
+
 ## Features
 - Players can roll the dice and see the numbers rolled.
 - The game automatically determines the winner based on the dice roll results.
