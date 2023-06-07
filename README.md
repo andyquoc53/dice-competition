@@ -23,7 +23,7 @@ You can check my live demo here: https://andyquoc53.github.io/dice-competition/s
 ## Getting Started
 To run the Dice Rolling Game locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/dice-rolling-game.git
+1. Clone the repository: git clone https://github.com/andyquoc53/dice-competition
 2. Navigate to the project directory: cd dice-rolling-game
 3. Open the `index.html` file in a web browser.
 
